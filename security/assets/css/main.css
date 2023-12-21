@@ -1,0 +1,134 @@
+header {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  position: absolute;
+}
+header .container .navbar .container-fluid .collapse .navbar-nav .nav-item a {
+  font-size: 18px;
+  color: white;
+}
+
+#home {
+  width: 100%;
+  height: 700px;
+  background-image: url(/assets/img/header-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home .homecontent {
+  width: 80%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+#home .homecontent .homebtn {
+  margin: auto;
+  border: none;
+  padding: 8px;
+  background-color: #FAB700;
+}
+
+#services {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#services .servicestext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#feature {
+  width: 100%;
+  height: auto;
+}
+#feature .featureimg {
+  border-radius: 10px;
+  border: 1px solid black;
+  min-height: 180px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#feature .featuretext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+#feature .featuredimg {
+  margin: auto;
+}
+#feature .featureicon {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+footer {
+  background-color: #04091E;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footertext p {
+  color: grey;
+}
+footer .footertext span {
+  color: yellow;
+}
+
+#product {
+  width: 100%;
+  height: auto;
+}
+#product .contentpagi {
+  display: flex;
+  justify-content: end;
+}
+#product #pagi {
+  background-color: brown;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+#product .boxDiv {
+  margin-bottom: 30px;
+}
+#product .boxDiv .boxbtn {
+  background-color: #FAB700;
+  border-radius: 5px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#mehsullar {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+#mehsullar h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
